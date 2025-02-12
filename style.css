@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.box{
+    height: 1024px;
+    background-image: url("img/image\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 30px 0;
+}
+header div{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.btn{
+   
+font-weight: 600;
+font-size: 20px;
+color: white;
+background: #009FF5B5;
+box-shadow: 0px 4px 4px 0px #DAD3FF;
+border: none;
+padding: 9px 19px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+h1{
+    padding: 30px 49px;
+width: 654px;
+height: 103px;
+text-align: center;
+background: #FFC611;
+text-shadow: 0px 4px 4px  #0047FF;
+border: 11px solid #5A5555;
+border-radius: 50px;
+margin: 130px auto; 
+}
+.card {
+    width: 361px;
+    height: 420px;
+    background: #000000;
+ text-align: center;
+ box-shadow: 8px 7px 20px 0px #FFFFFF;
+}
+.card h2 {
+font-weight: 600;
+font-size: 36px;
+line-height: 42.19px;
+text-shadow: 0px 4px 4px  #FFC200;
+}
+.ota{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    background-color: #000000;
+    padding: 61px 0;
+}
+.info h2{
+font-weight: 600;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+color:  #5A5555;;
+text-shadow: 0px 4px 4px  #FFFFFF;
+margin: 50px 0 ;
+}
+.info-ota{
+    display: flex;
+    gap: 87px;
+    margin-top: 50px;
+}
+.info-ota p{
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 31.64px;
+    color: #DAD3FF;
+}
+.btn2{
+   
+font-weight: 700;
+font-size: 27px;
+line-height: 31.64px;
+padding: 14px 71px;
+box-shadow: 0px 4px 4px 0px white;
+color:  #000000;
+background: #FFC200;
+margin-top: 50px;
+transition: 0.5s;
+}
+.btn2:hover{
+    background: #535353;
+color: white;
+}
+.nma{
+    width: 1440px;
+    height: 158px;
+    background: #FFC611;
+  justify-content: right;
+  align-items: center;
+}
+.ikon{
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    align-items: center;
+}
